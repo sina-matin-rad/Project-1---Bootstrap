@@ -1,0 +1,386 @@
+@media screen and (max-width: 1500px) {
+
+    header .circle-holder {
+
+        margin: 0 6.2vw;
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    html {
+
+        font-size: 13px;
+
+
+    }
+
+
+    .socials-side {
+
+        display: none;
+
+    }
+
+    .search-btn-sd span {
+
+        display: none;
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    html {
+
+        font-size: 12px;
+
+
+    }
+
+    header #fixednav {
+
+        width: 105% !important;
+
+
+    }
+
+
+
+
+    main #second-row {
+
+        grid-template-rows: repeat(5, 1fr) !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 15px !important;
+        padding: 15px !important;
+
+    }
+
+
+    main #second-row .speaker1 {
+
+        grid-row: 2/4;
+        grid-column: 1/-1;
+
+
+    }
+
+    main #fifth-row {
+
+        height: 1500px;
+
+
+    }
+
+    main #second-row .speaker2 {
+
+        grid-row: 1/2;
+        grid-column: 1/-1;
+
+
+
+    }
+
+    main #fifth-row .price-holder {
+
+
+        flex-direction: column;
+        height: 90%;
+
+
+
+    }
+
+    main #fifth-row .price-holder .prices {
+
+        width: 80%;
+        height: 500px;
+
+
+    }
+
+    main #fifth-row .price-holder .prices .price-info span {
+
+        justify-content: center;
+
+
+    }
+
+    header .down a {
+
+        width: 30px;
+        height: 30px;
+
+
+    }
+
+    header .down i {
+
+        font-size: 20px;
+
+
+    }
+
+    header #back-video-holder .row {
+
+        width: 105% !important;
+
+
+
+    }
+
+    #video-images {
+
+        margin-right: 100px;
+
+
+    }
+
+    header .circle-holder {
+
+        display: none;
+
+
+    }
+
+    .form-holder {
+
+        width: 80% !important;
+
+
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+    main #third-row .days-body {
+
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    html {
+
+        font-size: 10px;
+
+
+    }
+
+    main #first-row {
+
+        flex-direction: column;
+        width: 100% !important;
+
+
+    }
+
+    main #first-row .col-6 {
+
+        width: 80%;
+        align-items: center;
+        text-align: center;
+
+
+
+    }
+
+    header .col-2 img {
+
+        display: none;
+
+
+    }
+
+    header .circle-holder {
+
+        margin: 0px 15vw;
+        display: flex;
+
+
+    }
+
+    main #first-row>.ourstory #meet {
+
+        width: 16vw;
+
+
+    }
+
+    main #first-row>.ourstory #book {
+
+        width: 16vw;
+
+
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+    html {
+
+        font-size: 8px;
+
+
+    }
+
+
+    header #fixednav {
+
+        width: 110% !important;
+
+
+    }
+
+    header .circle-holder {
+
+        margin: 0px 20vw;
+
+
+    }
+
+    header #back-video-holder .row {
+
+        width: 110% !important;
+
+
+    }
+
+    .form-holder {
+
+        width: 100% !important;
+
+
+    }
+
+    /* header #back-video-info {
+
+        height: 200% !important;
+
+
+    } */
+
+    /* 
+    header #video-images {
+
+    flex-direction: column;
+    align-items: center;
+
+
+    }
+
+    header #video-images {
+
+        flex-direction: column;
+    
+    
+        }
+        header .highlightimg {
+
+            width: 50%;
+            height: 100%;
+
+        }
+
+        .back-video {
+
+            height: 150%;
+
+
+        } */
+
+    nav .col-10 {
+
+        display: none;
+
+    }
+
+    #toggle-nav {
+
+        display: flex;
+
+
+    }
+
+
+
+    header .circle-holder {
+
+        margin: 0px 25vw;
+
+
+    }
+
+    nav .col-4 {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 15vw;
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+    html {
+
+        font-size: 8px;
+
+
+    }
+
+    header #fixednav {
+
+        width: 115% !important;
+
+
+    }
+
+    header #back-video-holder .row {
+
+        width: 115% !important;
+
+
+    }
+
+
+
+
+
+
+
+
+
+}
